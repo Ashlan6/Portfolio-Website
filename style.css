@@ -433,15 +433,17 @@ nav ul li a:hover{
 .projects-container{
     display:flex;
     justify-content:center;
-    gap:30px;
-    flex-wrap:wrap;
+    align-items:stretch;
+    gap:25px;
     margin-top:50px;
+    flex-wrap:nowrap;
 }
+
 
 /* PROJECT CARD */
 
 .project-card{
-    width:320px;
+    width:280px;
     background:white;
     border-radius:25px;
     overflow:hidden;
