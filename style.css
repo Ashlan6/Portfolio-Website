@@ -266,7 +266,15 @@ nav{
 
 .logo{
     color:#ff4fa3;
-    font-size:28px;
+    font-size:30px;
+    font-weight:600;
+    letter-spacing:1px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.logo:hover{
+    transform:scale(1.05);
 }
 
 nav ul{
