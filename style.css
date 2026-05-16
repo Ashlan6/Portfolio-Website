@@ -198,3 +198,54 @@ h2{
     }
 
 }
+/* ANIMATIONS */
+
+@keyframes fadeUp{
+    from{
+        opacity:0;
+        transform:translateY(40px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+@keyframes float{
+    0%{
+        transform:translateY(0px);
+    }
+
+    50%{
+        transform:translateY(-12px);
+    }
+
+    100%{
+        transform:translateY(0px);
+    }
+}
+
+/* APPLY ANIMATIONS */
+
+.hero h1{
+    animation:fadeUp 1s ease;
+}
+
+.hero p{
+    animation:fadeUp 1.3s ease;
+}
+
+.btn{
+    animation:fadeUp 1.6s ease;
+}
+
+.profile{
+    animation:float 4s ease-in-out infinite;
+}
+
+.about,
+.projects,
+.contact{
+    animation:fadeUp 1s ease;
+}
