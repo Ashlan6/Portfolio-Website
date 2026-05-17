@@ -440,7 +440,7 @@ nav ul li a:hover{
 
 .projects-container{
     display:flex;
-    gap:20px;
+    gap:10px;
     justify-content:flex-start;
     flex-wrap:nowrap;
 }
@@ -536,4 +536,118 @@ nav ul li a:hover{
     transform:translateY(-3px);
     background:#ff69b4;
     color:white;
+}
+/* CONTACT PAGE */
+
+.contact-page{
+    min-height:100vh;
+    padding:120px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:60px;
+    background:linear-gradient(to bottom right,#fff0f6,#ffffff);
+}
+
+/* LEFT SIDE */
+
+.contact-left{
+    flex:1;
+}
+
+.small-title{
+    color:#ff69b4;
+    font-size:14px;
+    font-weight:600;
+    letter-spacing:2px;
+    margin-bottom:10px;
+}
+
+.contact-left h1{
+    font-size:60px;
+    color:#ff4fa3;
+    margin-bottom:20px;
+}
+
+.contact-description{
+    color:#5f6675;
+    line-height:1.8;
+    margin-bottom:35px;
+    max-width:550px;
+    font-size:17px;
+}
+
+/* CONTACT BOX */
+
+.contact-box{
+    display:flex;
+    align-items:center;
+    gap:20px;
+    background:white;
+    padding:20px;
+    border-radius:18px;
+    margin-bottom:20px;
+    box-shadow:0 10px 25px rgba(255,105,180,0.08);
+    border:1px solid #ffd1e3;
+    transition:0.3s;
+}
+
+.contact-box:hover{
+    transform:translateY(-5px);
+}
+
+.icon{
+    width:55px;
+    height:55px;
+    border-radius:15px;
+    background:#ffe4ef;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:24px;
+    color:#ff4fa3;
+}
+
+.contact-box h3{
+    color:#ff4fa3;
+    margin-bottom:5px;
+}
+
+.contact-box p{
+    color:#5f6675;
+}
+
+/* RIGHT SIDE */
+
+.contact-right{
+    flex:1;
+    display:flex;
+    justify-content:center;
+}
+
+.opportunity-card{
+    width:480px;
+    background:white;
+    padding:50px 40px;
+    border-radius:25px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(255,105,180,0.12);
+    border:1px solid #ffd1e3;
+}
+
+.big-icon{
+    font-size:55px;
+    margin-bottom:20px;
+}
+
+.opportunity-card h2{
+    color:#ff4fa3;
+    margin-bottom:20px;
+    font-size:32px;
+}
+
+.opportunity-card p{
+    color:#5f6675;
+    line-height:1.8;
+    font-size:17px;
 }
