@@ -437,13 +437,13 @@ nav ul li a:hover{
     flex-direction:row;
     justify-content:center;
     align-items:flex-start;
-    gap:20px;
+    gap:10px;
 }
 
 /* CARD */
 
 .project-card{
-    width:300px;
+    width:290px;
     background:white;
     border-radius:25px;
     overflow:hidden;
