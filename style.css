@@ -651,3 +651,14 @@ nav ul li a:hover{
     line-height:1.8;
     font-size:17px;
 }
+/* CONTACT LINKS */
+
+.contact-box a{
+    text-decoration:none;
+    color:#5f6675;
+    transition:0.3s;
+}
+
+.contact-box a:hover{
+    color:#ff4fa3;
+}
